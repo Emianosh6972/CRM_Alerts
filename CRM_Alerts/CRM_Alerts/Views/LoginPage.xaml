@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="CRM_Alerts.Views.LoginPage"
+    BindingContext="{Binding Main, Source={StaticResource Locator}}"
+    Title="Inicio de Sesion">
+    
+    <ContentPage.Content>
+        <ScrollView>
+            
+            <StackLayout Padding="10,20,10,5">
+
+            <Label FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" Text="Login"></Label>
+
+            <Image Source="Login_A" WidthRequest="60"> </Image>
+
+            <Grid Margin="0.20">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Row="0" Grid.Column="0" Text="E-Mail"> </Label>
+
+                <Entry Grid.Row="0" Grid.Column="1" Placeholder="Ingrese su credencial" Keyboard="Email"></Entry>
+
+                <Label Grid.Row="1" Grid.Column="0" Text="Contraseña"></Label>
+
+                <Entry Grid.Row="1" Grid.Column="1" IsPassword="true" Placeholder="Ingrese su contraseña"></Entry>
+
+            </Grid>
+            
+            <StackLayout Orientation="Vertical">
+            
+                <Label Text="Recordarme" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"></Label>
+                <Switch HorizontalOptions="Center"></Switch>
+
+            </StackLayout>
+
+            <ActivityIndicator></ActivityIndicator>
+
+            <StackLayout Margin="65,0">
+
+                <Button BackgroundColor="DarkCyan" BorderRadius="23" Text="Ingresar" TextColor="WhiteSmoke" ></Button>
+
+            </StackLayout>
+        
+        </StackLayout>
+            
+        </ScrollView>
+        
+    
+    </ContentPage.Content>
+
+</ContentPage>

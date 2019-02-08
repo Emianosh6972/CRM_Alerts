@@ -1,0 +1,13 @@
+C:\Proyects\Xamarin\CRM_Alerts\crm_alerts\CRM_Alerts\CRM_Alerts\bin\Debug\netstandard2.0\CRM_Alerts.deps.json
+C:\Proyects\Xamarin\CRM_Alerts\crm_alerts\CRM_Alerts\CRM_Alerts\bin\Debug\netstandard2.0\CRM_Alerts.dll
+C:\Proyects\Xamarin\CRM_Alerts\crm_alerts\CRM_Alerts\CRM_Alerts\bin\Debug\netstandard2.0\CRM_Alerts.pdb
+C:\Proyects\Xamarin\CRM_Alerts\crm_alerts\CRM_Alerts\CRM_Alerts\obj\Debug\netstandard2.0\CRM_Alerts.csprojAssemblyReference.cache
+C:\Proyects\Xamarin\CRM_Alerts\crm_alerts\CRM_Alerts\CRM_Alerts\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Proyects\Xamarin\CRM_Alerts\crm_alerts\CRM_Alerts\CRM_Alerts\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Proyects\Xamarin\CRM_Alerts\crm_alerts\CRM_Alerts\CRM_Alerts\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Proyects\Xamarin\CRM_Alerts\crm_alerts\CRM_Alerts\CRM_Alerts\obj\Debug\netstandard2.0\CRM_Alerts.csproj.CoreCompileInputs.cache
+C:\Proyects\Xamarin\CRM_Alerts\crm_alerts\CRM_Alerts\CRM_Alerts\obj\Debug\netstandard2.0\CRM_Alerts.AssemblyInfoInputs.cache
+C:\Proyects\Xamarin\CRM_Alerts\crm_alerts\CRM_Alerts\CRM_Alerts\obj\Debug\netstandard2.0\CRM_Alerts.AssemblyInfo.cs
+C:\Proyects\Xamarin\CRM_Alerts\crm_alerts\CRM_Alerts\CRM_Alerts\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Proyects\Xamarin\CRM_Alerts\crm_alerts\CRM_Alerts\CRM_Alerts\obj\Debug\netstandard2.0\CRM_Alerts.dll
+C:\Proyects\Xamarin\CRM_Alerts\crm_alerts\CRM_Alerts\CRM_Alerts\obj\Debug\netstandard2.0\CRM_Alerts.pdb
