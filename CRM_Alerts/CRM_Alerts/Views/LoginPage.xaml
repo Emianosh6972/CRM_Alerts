@@ -7,43 +7,42 @@
     Title="Inicio de Sesion">
     
     <ContentPage.Content>
-        <ScrollView>
-            
-            <StackLayout Padding="10,20,10,5">
+        <ScrollView BindingContext="{Binding Login}">
 
-            <Label FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" Text="Login"></Label>
+            <StackLayout Padding="25">
 
             <Image Source="Login_A" WidthRequest="60"> </Image>
 
-            <Grid Margin="0.20">
+            <Grid Margin="10,0" VerticalOptions="CenterAndExpand">
 
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
 
-                <Label Grid.Row="0" Grid.Column="0" Text="E-Mail"> </Label>
+                <Label Grid.Row="0" Grid.Column="0" VerticalOptions="Center" Text="E-Mail"> </Label>
 
-                <Entry Grid.Row="0" Grid.Column="1" Placeholder="Ingrese su credencial" Keyboard="Email"></Entry>
+                <Entry Grid.Row="0" Grid.Column="1" Placeholder="Ingrese su credencial" Keyboard="Email" Text="{Binding Email, Mode=TwoWay}"></Entry>
 
-                <Label Grid.Row="1" Grid.Column="0" Text="Contraseña"></Label>
+                <Label Grid.Row="1" Grid.Column="0" VerticalOptions="Center" Text="Contraseña"></Label>
 
-                <Entry Grid.Row="1" Grid.Column="1" IsPassword="true" Placeholder="Ingrese su contraseña"></Entry>
+                <Entry Grid.Row="1" Grid.Column="1" IsPassword="true" Placeholder="Ingrese su contraseña" Text="{Binding Pass, Mode=TwoWay}"></Entry>
 
             </Grid>
             
-            <StackLayout Orientation="Vertical">
+            <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
             
                 <Label Text="Recordarme" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"></Label>
-                <Switch HorizontalOptions="Center"></Switch>
+                
+                <Switch HorizontalOptions="Center" VerticalOptions="CenterAndExpand" IsToggled="{Binding IsRemembered, Mode=TwoWay }"></Switch>
 
             </StackLayout>
 
-            <ActivityIndicator></ActivityIndicator>
+                <ActivityIndicator IsRunning="{Binding Loading, Mode=TwoWay}" VerticalOptions="CenterAndExpand"></ActivityIndicator>
 
-            <StackLayout Margin="65,0">
+            <StackLayout Margin="65,0" VerticalOptions="CenterAndExpand">
 
-                <Button BackgroundColor="DarkCyan" BorderRadius="23" Text="Ingresar" TextColor="WhiteSmoke" ></Button>
+                <Button BackgroundColor="DarkCyan" BorderRadius="23" Command="{Binding LoginCommand}" HeightRequest="46" Text="Ingresar" TextColor="WhiteSmoke" HorizontalOptions="FillAndExpand" ></Button>
 
             </StackLayout>
         

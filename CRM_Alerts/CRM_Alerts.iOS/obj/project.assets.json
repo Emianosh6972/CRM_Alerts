@@ -556,7 +556,7 @@
   },
   "libraries": {
     "Xamarin.Forms/3.4.0.1008975": {
-      "sha512": "036/h8HtzRFgTrfhY57IeHoYRsPTO2XTA6uUFdmZzw2QR1sdszfofhI9HrCJTRx6fCzmjPg5Cxk5chYrjKarNw==",
+      "sha512": "tM9syeev45u92OFENGjq+Zw8WiEwLJFiXe317XpL9SY2RRk9sm2fc1lDVjzwz0da+5ZP5fi24NAPsPQdxBdMwQ==",
       "type": "package",
       "path": "xamarin.forms/3.4.0.1008975",
       "files": [
@@ -719,11 +719,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Proyects\\Xamarin\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts.iOS\\CRM_Alerts.iOS.csproj",
+      "projectUniqueName": "C:\\Proyects\\VisualStudio\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts.iOS\\CRM_Alerts.iOS.csproj",
       "projectName": "CRM_Alerts.iOS",
-      "projectPath": "C:\\Proyects\\Xamarin\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts.iOS\\CRM_Alerts.iOS.csproj",
+      "projectPath": "C:\\Proyects\\VisualStudio\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts.iOS\\CRM_Alerts.iOS.csproj",
       "packagesPath": "C:\\Users\\ogallardo\\.nuget\\packages\\",
-      "outputPath": "C:\\Proyects\\Xamarin\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts.iOS\\obj\\",
+      "outputPath": "C:\\Proyects\\VisualStudio\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -740,8 +740,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Proyects\\Xamarin\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts.csproj": {
-              "projectPath": "C:\\Proyects\\Xamarin\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts.csproj"
+            "C:\\Proyects\\VisualStudio\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts.csproj": {
+              "projectPath": "C:\\Proyects\\VisualStudio\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts.csproj"
             }
           }
         }
