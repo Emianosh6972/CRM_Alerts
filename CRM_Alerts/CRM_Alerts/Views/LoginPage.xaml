@@ -11,46 +11,47 @@
 
             <StackLayout Padding="25">
 
-            <Image Source="Login_A" WidthRequest="60"> </Image>
+                <Image Source="AIRAMLogo"/>
 
-            <Grid Margin="10,0" VerticalOptions="CenterAndExpand">
+                <Grid Margin="10" VerticalOptions="CenterAndExpand">
 
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="2*"/>
-                </Grid.ColumnDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
 
-                <Label Grid.Row="0" Grid.Column="0" VerticalOptions="Center" Text="E-Mail"> </Label>
+                    <Label Grid.Row="0" Grid.Column="0" VerticalOptions="Center" Text="E-Mail"></Label>
 
-                <Entry Grid.Row="0" Grid.Column="1" Placeholder="Ingrese su credencial" Keyboard="Email" Text="{Binding Email, Mode=TwoWay}"></Entry>
+                    <Entry Grid.Row="0" Grid.Column="1" Placeholder="Ingrese su credencial" Keyboard="Email" Text="{Binding Email, Mode=TwoWay}"></Entry>
 
-                <Label Grid.Row="1" Grid.Column="0" VerticalOptions="Center" Text="Contraseña"></Label>
+                    <Label Grid.Row="1" Grid.Column="0" VerticalOptions="Center" Text="Contraseña"></Label>
 
-                <Entry Grid.Row="1" Grid.Column="1" IsPassword="true" Placeholder="Ingrese su contraseña" Text="{Binding Pass, Mode=TwoWay}"></Entry>
+                    <Entry Grid.Row="1" Grid.Column="1" IsPassword="true" Placeholder="Ingrese su contraseña" Text="{Binding Pass, Mode=TwoWay}"></Entry>
 
-            </Grid>
-            
-            <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
-            
-                <Label Text="Recordarme" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"></Label>
+                </Grid>
+
+                <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+
+                    <Label Text="Recordarme" HorizontalOptions="Start" VerticalOptions="Center"></Label>
+
+                    <Switch HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand" IsToggled="{Binding IsRemembered, Mode=TwoWay }"></Switch>
+
+                </StackLayout>
                 
-                <Switch HorizontalOptions="Center" VerticalOptions="CenterAndExpand" IsToggled="{Binding IsRemembered, Mode=TwoWay }"></Switch>
+                <Label Text="¿Olvidaste tu contraseña?" TextColor="RoyalBlue" HorizontalOptions="CenterAndExpand" VerticalOptions="FillAndExpand"></Label>
+
+                <ActivityIndicator IsRunning="{Binding IsRunning, Mode=TwoWay}" VerticalOptions="CenterAndExpand"></ActivityIndicator>
+
+                <StackLayout Margin="30,0" VerticalOptions="CenterAndExpand">
+
+                    <Button BackgroundColor="DarkCyan" BorderRadius="23" Command="{Binding LoginCommand}" HeightRequest="46" Text="Ingresar" TextColor="WhiteSmoke" HorizontalOptions="FillAndExpand"  IsEnabled="{Binding IsEnabled, Mode=TwoWay}"></Button>
+
+                </StackLayout>
 
             </StackLayout>
 
-                <ActivityIndicator IsRunning="{Binding Loading, Mode=TwoWay}" VerticalOptions="CenterAndExpand"></ActivityIndicator>
-
-            <StackLayout Margin="65,0" VerticalOptions="CenterAndExpand">
-
-                <Button BackgroundColor="DarkCyan" BorderRadius="23" Command="{Binding LoginCommand}" HeightRequest="46" Text="Ingresar" TextColor="WhiteSmoke" HorizontalOptions="FillAndExpand" ></Button>
-
-            </StackLayout>
-        
-        </StackLayout>
-            
         </ScrollView>
         
-    
     </ContentPage.Content>
 
 </ContentPage>

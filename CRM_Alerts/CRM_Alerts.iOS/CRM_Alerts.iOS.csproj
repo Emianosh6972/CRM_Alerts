@@ -158,6 +158,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\Login_A.png" />
+    <BundleResource Include="Resources\AIRAMLogo.png" />
   </ItemGroup>
 </Project>
