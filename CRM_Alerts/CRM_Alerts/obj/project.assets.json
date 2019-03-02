@@ -79,6 +79,7 @@
         ".signature.p7s",
         "lib/monoandroid1/GalaSoft.MvvmLight.Platform.XML",
         "lib/monoandroid1/GalaSoft.MvvmLight.Platform.dll",
+        "lib/monoandroid1/GalaSoft.MvvmLight.Platform.dll.mdb",
         "lib/monoandroid1/GalaSoft.MvvmLight.Platform.pdb",
         "lib/monoandroid1/GalaSoft.MvvmLight.XML",
         "lib/monoandroid1/GalaSoft.MvvmLight.dll",
@@ -398,11 +399,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Proyects\\VisualStudio\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts.csproj",
+      "projectUniqueName": "C:\\Proyects\\VisualStudio\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts.csproj",
       "projectName": "CRM_Alerts",
-      "projectPath": "C:\\Proyects\\VisualStudio\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts.csproj",
+      "projectPath": "C:\\Proyects\\VisualStudio\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts.csproj",
       "packagesPath": "C:\\Users\\ogallardo\\.nuget\\packages\\",
-      "outputPath": "C:\\Proyects\\VisualStudio\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts\\obj\\",
+      "outputPath": "C:\\Proyects\\VisualStudio\\CRM_Alerts\\CRM_Alerts\\CRM_Alerts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

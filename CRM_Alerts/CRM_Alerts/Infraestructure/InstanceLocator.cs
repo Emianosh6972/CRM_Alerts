@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CRM_Alerts.Infraestructure
 {
-    using CRM_Alerts.ModelViews;
+    using CRM_Alerts.ViewModels;
     public class InstanceLocator
     {
         #region Propiedades
