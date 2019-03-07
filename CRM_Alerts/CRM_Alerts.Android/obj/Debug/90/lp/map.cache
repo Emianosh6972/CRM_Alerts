@@ -28,3 +28,6 @@ Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 netstandard
 System.Reflection.Extensions
+Plugin.Connectivity.Abstractions
+Plugin.Connectivity
+Newtonsoft.Json

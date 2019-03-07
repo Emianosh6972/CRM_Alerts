@@ -34,6 +34,5 @@ C:\Proyects\VisualStudio\CRM_Alerts\CRM_Alerts\CRM_Alerts\obj\Debug\netstandard2
 C:\Proyects\VisualStudio\CRM_Alerts\CRM_Alerts\CRM_Alerts\bin\Debug\netstandard2.0\CRM_Alerts.deps.json
 C:\Proyects\VisualStudio\CRM_Alerts\CRM_Alerts\CRM_Alerts\bin\Debug\netstandard2.0\CRM_Alerts.dll
 C:\Proyects\VisualStudio\CRM_Alerts\CRM_Alerts\CRM_Alerts\bin\Debug\netstandard2.0\CRM_Alerts.pdb
-C:\Proyects\VisualStudio\CRM_Alerts\CRM_Alerts\CRM_Alerts\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Proyects\VisualStudio\CRM_Alerts\CRM_Alerts\CRM_Alerts\obj\Debug\netstandard2.0\CRM_Alerts.dll
 C:\Proyects\VisualStudio\CRM_Alerts\CRM_Alerts\CRM_Alerts\obj\Debug\netstandard2.0\CRM_Alerts.pdb
